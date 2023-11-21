@@ -41,7 +41,7 @@ internal class Program
             if (emp1.Result > maxResult)
             {
                 employeeWithMaxResult = emp1;
-
+                maxResult = emp1.Result;
             }
             else if (emp2.Result > maxResult)
             {
@@ -55,7 +55,7 @@ internal class Program
             }
         }
 
-        Console.WriteLine($"Największą ilość punktów: {maxResult} zdobył/a {employeeWithMaxResult.FullInfo} lat.");
+        Console.WriteLine($"Największą ilość punktów: {maxResult} zdobył/a {employeeWithMaxResult.Name} {employeeWithMaxResult.Surname} lat {employeeWithMaxResult.Age}.");
     }
 }
 
