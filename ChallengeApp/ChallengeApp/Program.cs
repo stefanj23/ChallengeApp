@@ -55,7 +55,7 @@ internal class Program
             }
         }
 
-        Console.WriteLine($"Największą ilość punktów: {maxResult} zdobył/a {employeeWithMaxResult.Name} {employeeWithMaxResult.Surname} lat {employeeWithMaxResult.Age}.");
+        Console.WriteLine($"Największą ilość punktów: {maxResult} zdobył/a {employeeWithMaxResult.Name} {employeeWithMaxResult.Surname} lat {employeeWithMaxResult.Age}.")
     }
 }
 
